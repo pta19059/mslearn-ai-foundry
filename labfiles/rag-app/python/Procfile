@@ -1,0 +1,5 @@
+# Azure App Service startup command
+# This file is used by Azure App Service to start the Flask application
+
+# Install dependencies and start the application
+web: gunicorn --bind 0.0.0.0:$PORT app:app --workers 2 --timeout 120 --keepalive 2

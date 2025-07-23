@@ -1,0 +1,10 @@
+name: margies-travel-rag-app
+metadata:
+  template: margies-travel-rag-app@0.0.1-beta
+infra:
+  provider: bicep
+services:
+  margies-travel-web:
+    project: ./
+    host: appservice
+    language: python

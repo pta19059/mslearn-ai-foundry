@@ -1,0 +1,8 @@
+# Azure App Service Configuration
+# For Python applications on Azure App Service
+
+# Specify Python version
+python-3.11.0
+
+# Application entry point
+# Azure will automatically detect Flask applications
