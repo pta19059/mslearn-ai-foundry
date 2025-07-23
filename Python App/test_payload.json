@@ -1,0 +1,8 @@
+{
+  "jsonrpc": "2.0",
+  "method": "get_weather",
+  "params": {
+    "city": "Milan"
+  },
+  "id": 1
+}
